@@ -20,7 +20,7 @@ npm install
 ### Run the Application
 
 ```bash
-npm start
+npm run dev
 ```
 
 - Note: The server will start running on port 3000 by default.
