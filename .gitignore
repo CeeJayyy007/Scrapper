@@ -3,4 +3,4 @@ node_modules
 logs
 production.env
 requests
-.csv
+jobs.csv
