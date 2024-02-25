@@ -13,7 +13,7 @@ git clone <repository-url>
 ### Install Dependencies
 
 ```bash
-cd job-scraper-app
+cd scrapper
 npm install
 ```
 
@@ -23,7 +23,7 @@ npm install
 npm start
 ```
 
-- Note: The server will start running on port 3000 by default. You can modify the port in the index.js file if needed.
+- Note: The server will start running on port 3000 by default.
 
 ## API Endpoint
 
@@ -45,6 +45,6 @@ Example:
 
 ### Response
 
--Success: If the scraping process is successful, a CSV file named jobs.csv will be created in the root directory of the application and a success message "CSV file created successfully" will be logged in the console.
+- Success: If the scraping process is successful, a CSV file named jobs.csv will be created in the root directory of the application and a success message "CSV file created successfully" will be logged in the console.
 
--Error: If an error occurs during the scraping process, an appropriate error message will be returned.
+- Error: If an error occurs during the scraping process, an appropriate error message will be returned.
