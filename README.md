@@ -29,6 +29,10 @@ npm run dev
 
 ### POST /scrape
 
+```bash
+localhost:3000/scrape
+```
+
 Initiates the scraping process to extract job listings from the provided URL.
 
 ### Request Body
@@ -39,7 +43,7 @@ Example:
 
 ```bash
 {
-  "url": "https://weworkremotely.com/scrape"
+  "url": "https://weworkremotely.com/"
 }
 ```
 
